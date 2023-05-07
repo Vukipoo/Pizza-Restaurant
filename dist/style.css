@@ -1,0 +1,74 @@
+
+
+.text{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Marck Script';
+    
+}
+
+
+.book-online {
+    padding: 15px;
+    background-color: white;
+    border: 1px solid black;
+    width: 25%;
+}
+
+.headline {
+
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.tabs{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    font-size: 16px;
+    margin-bottom: 50px;
+    float: right;
+}
+
+.tab{
+    cursor: pointer;
+}
+
+.home-page{
+    display: flex;
+    flex-direction: row;
+    gap: 100px
+}
+
+#reserve-btn {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+
+.home-copy {
+    position: relative;
+    bottom: 30px;
+}
+
+.home-pizza img {
+    height: 300px;
+    position: relative;
+    top: 30px
+}
+
+#title-btn {
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    position: relative;
+
+}
+
