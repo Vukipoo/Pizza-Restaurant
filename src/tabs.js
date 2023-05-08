@@ -23,7 +23,6 @@ const createTabs = () => {
     const div5 = document.createElement('div5')
     const div6 = document.createElement('div6')
     const div7 = document.createElement('div7')
-    const div8 = document.createElement('div8')
 
 
 
@@ -31,10 +30,9 @@ const createTabs = () => {
     div2.setAttribute('id', 'menu-btn')
     div3.setAttribute('id', 'press-btn')
     div4.setAttribute('id', 'contact-btn')
-    div5.setAttribute('id', 'about-btn')
-    div6.setAttribute('id', 'careers-btn')
-    div7.setAttribute('id', 'reserve-btn')
-    div8.setAttribute('id', 'title-btn')
+    div5.setAttribute('id', 'careers-btn')
+    div6.setAttribute('id', 'reserve-btn')
+    div7.setAttribute('id', 'title-btn')
 
 
 
@@ -54,10 +52,9 @@ const createTabs = () => {
     div2.textContent = 'Menu'
     div3.textContent = 'Press'
     div4.textContent = 'Contact'
-    div5.textContent = 'About'
-    div6.textContent = 'Careers'
-    div7.textContent = 'Reserve a table'
-    div8.innerHTML = 'Universe Pizza'
+    div5.textContent = 'Careers'
+    div6.textContent = 'Reserve a table'
+    div7.innerHTML = 'Universe Pizza'
 
 
 
@@ -68,8 +65,7 @@ const createTabs = () => {
     tabs.appendChild(div4)
     tabs.appendChild(div5)
     tabs.appendChild(div6)
-    tabs.appendChild(div7)
-    title.appendChild(div8)
+    title.appendChild(div7)
 
 
 
@@ -92,13 +88,9 @@ const createTabs = () => {
     })
     div5.addEventListener('click',() => {
         clearContent()
-        aboutPage()
-    })
-    div6.addEventListener('click',() => {
-        clearContent()
         careersPage()
     })
-    div7.addEventListener('click',() => {
+    div6.addEventListener('click',() => {
         clearContent()
         reservePage()
     })

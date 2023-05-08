@@ -29,7 +29,7 @@ const pressPage = () => {
 
     const pressComment3 = document.createElement('div')
     pressComment3.classList.add('press-comment')
-    pressComment3.innerHTML = '<h3>05/07/2023</h3><h2>Popular Restaurant Critic</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'
+    pressComment3.innerHTML = '<h3>05/07/2023</h3><h2>Popular Food Blogger</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'
     pressCommentsDiv.appendChild(pressComment3)
 
   
