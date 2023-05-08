@@ -78,6 +78,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 50px
 }
 
 .high-light {
@@ -99,4 +101,15 @@
 
 .highLight-text{
     width: 250px;
+}
+
+.menu-item-div{
+    width: 200px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
 }
