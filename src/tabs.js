@@ -67,7 +67,6 @@ const createTabs = () => {
 
 
     div1.addEventListener('click',() => {
-        alert('hello world')
         clearContent()
         restaurantPage()
     })
@@ -101,7 +100,7 @@ const createTabs = () => {
 }
 
         function clearContent() {
-            const content = document.querySelector('content')
+            const content = document.querySelector('.content')
             const contentElements = document.querySelectorAll('.home-page, .menu-page, .contact-page')
 
             contentElements.forEach(element => {

@@ -1,4 +1,6 @@
-
+*{
+    font-family: 'Marck Script';
+}
 
 .text{
     display: flex;
@@ -6,7 +8,7 @@
     text-align: left;
     flex-direction: column;
     gap: 10px;
-    font-family: 'Marck Script';
+    
     
 }
 
@@ -72,3 +74,29 @@
 
 }
 
+.menu-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.high-light {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlight-img{
+    height: 300px;
+    width: 400px;
+}
+
+.highlight-img img {
+    height: 300px;
+    width: 400px;
+    
+}
+
+.highLight-text{
+    width: 250px;
+}

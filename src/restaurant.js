@@ -13,9 +13,7 @@ const restaurantPage = () => {
     headline.innerHTML = '<h1>Best pizza in the universe</h1>'
     text.appendChild(headline)
 
-    const title =  document.createElement('div')
-    title.classList.add('title')
-    title.innerHTML = '<h1>Universe Pizza</h1>'
+    
 
     const homePizza = document.createElement('div')
     homePizza.classList.add('home-pizza')
