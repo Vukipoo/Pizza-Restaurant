@@ -113,3 +113,24 @@
     gap: 30px;
 
 }
+
+.press-page{
+    display: flex;
+    
+}
+
+.press-img-div img{
+    width: 700px;
+    
+}
+
+.press-img-div {
+    position:relative;
+    bottom: 70px
+}
+
+.press-comments-div {
+    display: flex;
+    flex-direction: column;
+    gap: 9px
+}

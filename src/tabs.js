@@ -1,6 +1,7 @@
 import restaurantPage from "./restaurant"
 import menuPage from './menu'
 import contactPage from './contact'
+import pressPage from './press'
 
 const createTabs = () => {
     const content = document.querySelector('.content')
@@ -22,16 +23,18 @@ const createTabs = () => {
     const div5 = document.createElement('div5')
     const div6 = document.createElement('div6')
     const div7 = document.createElement('div7')
+    const div8 = document.createElement('div8')
 
 
 
     div1.setAttribute('id', 'home-btn')
     div2.setAttribute('id', 'menu-btn')
-    div3.setAttribute('id', 'contact-btn')
-    div4.setAttribute('id', 'about-btn')
-    div5.setAttribute('id', 'careers-btn')
-    div6.setAttribute('id', 'reserve-btn')
-    div7.setAttribute('id', 'title-btn')
+    div3.setAttribute('id', 'press-btn')
+    div4.setAttribute('id', 'contact-btn')
+    div5.setAttribute('id', 'about-btn')
+    div6.setAttribute('id', 'careers-btn')
+    div7.setAttribute('id', 'reserve-btn')
+    div8.setAttribute('id', 'title-btn')
 
 
 
@@ -41,17 +44,20 @@ const createTabs = () => {
     div4.classList.add('tab')
     div5.classList.add('tab')
     div6.classList.add('tab')
+    div7.classList.add('tab')
+
 
 
 
 
     div1.textContent = 'Home'
     div2.textContent = 'Menu'
-    div3.textContent = 'Contact'
-    div4.textContent = 'About'
-    div5.textContent = 'Careers'
-    div6.textContent = 'Reserve a table'
-    div7.innerHTML = 'Universe Pizza'
+    div3.textContent = 'Press'
+    div4.textContent = 'Contact'
+    div5.textContent = 'About'
+    div6.textContent = 'Careers'
+    div7.textContent = 'Reserve a table'
+    div8.innerHTML = 'Universe Pizza'
 
 
 
@@ -62,7 +68,8 @@ const createTabs = () => {
     tabs.appendChild(div4)
     tabs.appendChild(div5)
     tabs.appendChild(div6)
-    title.appendChild(div7)
+    tabs.appendChild(div7)
+    title.appendChild(div8)
 
 
 
@@ -74,19 +81,24 @@ const createTabs = () => {
         clearContent()
         menuPage()
     })
+      
     div3.addEventListener('click',() => {
         clearContent()
-        contactPage()
+        pressPage()
     })
     div4.addEventListener('click',() => {
         clearContent()
-        aboutPage()
+        contactPage()
     })
     div5.addEventListener('click',() => {
         clearContent()
-        careersPage()
+        aboutPage()
     })
     div6.addEventListener('click',() => {
+        clearContent()
+        careersPage()
+    })
+    div7.addEventListener('click',() => {
         clearContent()
         reservePage()
     })
@@ -101,7 +113,7 @@ const createTabs = () => {
 
         function clearContent() {
             const content = document.querySelector('.content')
-            const contentElements = document.querySelectorAll('.home-page, .menu-page, .contact-page')
+            const contentElements = document.querySelectorAll('.home-page, .menu-page, .contact-page, .press-page')
 
             contentElements.forEach(element => {
                 if(element){
