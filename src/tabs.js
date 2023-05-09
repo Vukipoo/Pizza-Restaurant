@@ -2,6 +2,7 @@ import restaurantPage from "./restaurant"
 import menuPage from './menu'
 import contactPage from './contact'
 import pressPage from './press'
+import careersPage from "./careers"
 
 const createTabs = () => {
     const content = document.querySelector('.content')
@@ -105,7 +106,7 @@ const createTabs = () => {
 
         function clearContent() {
             const content = document.querySelector('.content')
-            const contentElements = document.querySelectorAll('.home-page, .menu-page, .contact-page, .press-page')
+            const contentElements = document.querySelectorAll('.home-page, .menu-page, .contact-page, .press-page, .careers-page')
 
             contentElements.forEach(element => {
                 if(element){

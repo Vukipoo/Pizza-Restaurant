@@ -185,3 +185,39 @@
     position: relative;
     bottom: 42px
 }
+
+.careers-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 15px;
+}
+
+.mission-divs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+.hiring {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#hire{
+    width: 100px;
+
+}
+
+.mission {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px
+}
